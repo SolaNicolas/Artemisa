@@ -1,0 +1,35 @@
+.contenido{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+.correo{
+	margin-right: 70px;
+}
+.correoelectronico{
+	margin-right: 99px;
+}
+.nombre{
+	margin-left: 4px;
+}
+.contraseña{
+	margin-right: 30px;
+}
+.nacionalidad{
+	margin-right: 140px;
+}
+.correoelectronico{
+	margin-right: 98px;
+}
+.botoningreso{
+	height: 30px;
+	width: 90px;
+}
+.crearcuenta{
+	height: 30px;
+	width: 100px;
+}
+.botoncomentario{
+	height: 30px;
+	width: 90px;
+}

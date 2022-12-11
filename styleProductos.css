@@ -1,0 +1,16 @@
+#main-conteiner{
+	text-align: center;
+	margin: auto;
+	font-size: 30px;
+}
+
+table{
+	margin: auto;
+	width: 50%;
+}
+td, th{
+	border: solid 2px rosybrown;
+	border-radius: 10px;
+	padding: 1;
+	text-align: center;
+}

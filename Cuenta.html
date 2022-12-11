@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleArtemisa.css">
+	<link rel="stylesheet" type="text/css" href="styleCuenta.css">
+	<title>Artemisa Lenceria</title>
+	<style type="text/css">
+		body{
+			background-color: #FFDCDC;
+		}
+	</style>
+</head>
+<body>
+<header>
+<div class="head">
+	<div class="logo">
+		<a href="indexArtemisa.html"><img src="descargar.png" width="110px" height="110px"></a>		
+	</div>
+
+	<nav class="navbar">
+		<a href="indexArtemisa.html">Inicio</a>
+		<a href="Productos.html">Productos</a>
+		<a href="Cuenta.html">Cuenta</a>
+		<a href="Contacto.html">Contacto</a>
+	</nav>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<main class="contenido">
+
+<h1>Iniciar Sesion:</h1>
+		<div class="correo"><b>Correo Electronico: </b><input type="text" name="Correo"></div>
+		<div><b>Contraseña: </b><input type="password" name="Contraseña"></div>
+		<br>
+		<button onclick="bienvenido()">Ingresar</button>
+			<script type="text/javascript">
+			function bienvenido(){
+				alert('¡Bienvenido!');
+			}
+			</script>
+
+<h1>Crear Cuenta: </h1>
+
+	<form>
+		<div><b>Nombre: </b> <input class="nombre" type="text" name="nombre"></div>	
+		<div><b>Apellido: </b> <input type="text" name="apellido"></div>
+		<div><b>Correo electronico: </b> <input class="correoelectronico" type="text" name="correo"></div>
+		<div><b>Contraseña: </b> <input class="contraseña" type="password" name="contraseña"></div>
+		<div><b>Nacionalidad: </b>
+					<select class="nacionalidad">
+				<option value="Arg">Argentina</option>
+				<br>
+				<option value="Chi">Chile</option>
+				<br>
+				<option value="Bra">Brasil</option>
+				<br>
+				<option value="Uru">Uruguay</option>
+				<br>
+			</select>
+		</div>
+		<br>
+		<button onclick="crearcuenta()">Crear Cuenta</button>
+			<script type="text/javascript">
+			function crearcuenta(){
+				alert('Cuenta creada con exito.');
+			}
+			</script>
+		<br>
+		<br>
+		<br>
+		<br>
+	<form>
+		<h1>Dejanos tu comentario: </h1>
+		<textarea name="comentario" id="" cols="100" rows="20"></textarea>
+		<br>
+		<button onclick="enviarcomentario()">Enviar</button>
+			<script type="text/javascript">
+			function enviarcomentario(){
+				alert('Comentario enviado.');
+			}
+			</script>
+	</form>
+</main>
+<br>
+<br>
+<br>
+
+<div>
+<aside>
+	<a href="https://www.coca-cola.com.ar/"><img src="bannerCocaColaPropaganda.jpg" width="100%" height="110px"></a>
+</aside>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<div>
+	
+<footer class="autor">
+	<h1>Derechos de autor a "Nicolas Sola" contanto: solanicolas@gmail.com</h1>
+</footer>
+
+</div>
+
+</body>
+</html>

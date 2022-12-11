@@ -1,0 +1,32 @@
+.titulo{
+	padding-top: 10%;
+	text-align: center;
+	font-size: 20px;
+}
+.instagram{
+	text-align: center;
+}
+.tituloinstagram{
+	text-align: center;
+	font-size: 25px;
+}
+.fotoartemisainstagram{
+	text-align: center;
+	border-radius: 20px;
+	border: solid 2px rosybrown;
+}
+.titulofacebook{
+	text-align: center;
+	font-size: 25px;
+}
+.facebook{
+	text-align: center;
+}
+.fotoartemisafacebook{
+	border-radius: 20px;
+	border: solid 2px rosybrown;
+}
+.teesperamos{
+	text-align: center;
+	font-size: 25px;
+}
